@@ -13,7 +13,7 @@ let selectedSong=0 ;
 
 const songs =[ 
                 {name:"Judas", src:"https://www.dropbox.com/scl/fi/umojmefr24n709fqujsh4/judas-lady-gaga-full-version_edit-audio-MP3_320K.mp3?rlkey=nablkga7uubwefezja5mey55i&st=kssclflh&raw=1"},
-                {name:"Inferno", src:"https://www.dropbox.com/scl/fi/ppt7r9p53rc7s7egxazjr/Screenshot_20220423_232512.jpg?rlkey=iw80gkdlc095ftr28qnjshvzi&st=sqo2pu76&raw=1"},
+                {name:"Inferno", src:"https://www.dropbox.com/scl/fi/gcxt1ayqbyy8yplulk5wf/Sub-Urban-_-Bella-Poarch-INFERNO-Lyrics-MP3_160K.mp3?rlkey=fweozzqu4erfymsv3wm8rr1lr&st=yahvt2h3&raw=1"},
             ]
 
             // https://drive.google.com/file/d/15bjqf_RLDsDuGd5_D2rRmbIiVElXeAJ3/view?usp=sharing
