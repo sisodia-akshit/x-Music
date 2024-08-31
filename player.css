@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    /* padding: 50px; */
+    color: #fff;
+    position: relative;
+}
+
+/* All songs PArt  Start */
+.menu{
+    display: block;
+    padding: 50px;
+    
+}
+h1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    background-color: #000;
+}
+.song{
+    width: 100%;
+    height: 50px;
+}
+
+.allSongs button{
+    width: 100%;
+    height: 100%;
+    border: #000 solid 2px;
+    display: flex;
+    padding-left: 10px;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: rgb(56, 56, 56);
+    color: #fff;
+
+
+}
+.allSongs button:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+
+
+/* All songs PArt End */
+
+.M-play{
+    display: none;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+
+}
+
+.playSong{
+    background-color: #111111;
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    padding: 50px;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+
+}
+.m-btn{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0%;
+    background-color: #000;
+    border-bottom: #fff solid 1px;
+}
+.m-btn button{
+    width: 70px;
+    height: 40px;
+    border: none;
+    border-right: solid #fff 1px;
+    box-shadow: 0 0 4px inset;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+}
+.m-btn button:hover{
+    color: #000;
+    background-color: #fff;
+}
+.playSong .cover{
+    /* background-color: #ff0000; */
+    position: relative;
+    height:fit-content;
+    width:fit-content;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.playSong .img{
+    background-color: rgb(0, 0, 0);
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 200px inset #ffffff;
+
+
+}
+.playSong .disc{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;justify-content: center;
+}
+
+.player{
+    display: none;
+
+}
+
+.slider{
+    position: fixed;
+    width: 100%;
+    bottom: 0%;
+    left: 0;
+    background-color: #000;
+    box-shadow: 0 0 200px;
+}
+#progress{
+    /* -webkit-appearance: none; */
+    width: 100%;
+    height: 3px;
+    background-color: #fff;
+    cursor: pointer;
+    margin: 0;
+}
+#progress::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    /* background-color: aqua; */
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    box-shadow: 0 10px 10px rbga(255,26,26,0.22);
+}
+.bottom{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.bottom .b{
+    margin: 20px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: #fff solid 3px;
+    background-color: #fff;
+    color: #fff;
+    cursor: pointer;
+}
+.bottom .b:hover{
+    background-color: #fff;
+    color: #000;
+}
+.bottom .play{
+    width: 55px;
+    height: 55px;
+    display:none;
+}
+.bottom .stop{
+    display: block;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X-Music</title>
+    <link rel="stylesheet" href="player.css">
+</head>
+<body>
+    <div class="menu">
+        <h1>All Songs</h1>
+        <div class="allSongs" id="allSongs">
+            
+            
+            <div class="song">
+                <!-- <button onclick="playSong()">Song1</button> -->
+                <audio controls id="control">
+                    <!-- <source src="./songs/judas.mp3" type="audio/mpeg"> -->
+                </audio>
+            </div>
+            <div class="song">
+                <!-- <button onclick="playSong()" >Song1</button> -->
+                <audio controls id="control">
+                    
+                </audio>
+            </div>
+            <div class="song">
+                <!-- <button onclick="playSong()">Song1</button> -->
+                <audio controls id="control">
+                    <!-- <source src="./songs/judas.mp3" type="audio/mpeg"> -->
+                </audio>
+            </div>
+            
+            
+        </div>
+    </div>
+    
+    
+
+    <div class="M-play" id="M-play">
+        <div class="playSong" id="playSong">
+            <div class="m-btn" id="back" onclick="backToMenu()">
+                <button>Back</button>
+            </div>
+            <div class="cover">
+                <div class="top">
+                    <div class="img" id="img">
+                        <img src="https://i.scdn.co/image/ab6761610000e5ebc8d3d98a1bccbe71393dbfbf" alt="img" style="width: 200px; height: 200px; background-color: aquamarine;">
+                    </div>
+                    <div class="disc">
+                        <h3>Your Favourite</h3>
+                        <!-- <p>Singer</p>
+                        <p>Fav <input type="checkbox" class="checkbox"></p> -->
+                        
+                    </div>
+                </div>
+            </div>
+            
+    </div>
+    
+        
+        
+
+    </div>
+    
+    <div class="player" id="player">
+       <div class="slider">
+        <input type="range" value="0" id="progress">
+       
+        
+        <div class="bottom">
+            <button class="b" id="backward"><img src="backward-solid.svg" style="width: 15px; height: 15px; background-size: cover;"></button>
+            <button class="play b" id="play"><img src="play-solid.svg" style="width: 25px; height: 25px; background-size: cover;"></button>
+            <button class="play b stop" id="pause" ><img src="pause-solid.svg" style="width: 25px; height: 25px; background-size: cover;"></button>
+            <button class="f b" id="forward"><img src="forward-solid.svg" style="width: 15px; height: 15px; background-size: cover;"></button>
+        </div>
+        </div>
+    </div>
+
+    
+    <script src="player.js"></script>
+</body>
+</html>
